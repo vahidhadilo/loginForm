@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 
+// import image
+import backgroundImage from './assets/images/backgroundImage.jpg'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="login">
+        <div className="container">
+          <h1>ورود کاربران</h1>
+          <div className="section">
+            <div><label htmlFor="" placeholder="email or mobilePhone">نام کاربری</label></div>
+            <input type="text" />
+          </div>
+
+          <div className="section">
+            <div><label htmlFor="" >پسورد</label></div>
+            <input type="password" />
+          </div>
+          <button>ورود</button>
+          <div className="media">
+            <a href="">Facebook</a>
+            <a href="">Google</a>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
