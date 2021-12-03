@@ -1,7 +1,7 @@
 import './App.scss';
 
 // import image
-import backgroundImage from './assets/images/backgroundImage.jpg'
+// import backgroundImage from './assets/images/backgroundImage.jpg'
 function App() {
   return (
     <div className="App">
